@@ -415,7 +415,7 @@ Full benchmark across all 27 evaluated models. Lower CER/WER is better; higher S
 <img width="1782" height="1261" alt="wer_and_cer_across_all_ocrmodels" src="https://github.com/user-attachments/assets/0224ae0f-5173-4daf-8ad9-d733ddbff6b0" />
 
 <img width="1190" height="790" alt="similarity_score_across_all_ocrmodels" src="https://github.com/user-attachments/assets/ea27158b-7c22-461f-acb5-468ccbd80954" />
-
+</p>
 
 
 | Model | CER ↓ | WER ↓ | Similarity ↑ |
@@ -456,12 +456,16 @@ of components selected for their complementary strengths and low error correlati
 The hybrid fusion approach aims to produce outputs that closely resemble the source document,
 leveraging inter-model reinforcement to mitigate individual weaknesses.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8c066116-6a02-4b4e-802a-72d2b4a5030d" width="900"/>
+</p>
 
-<img width="3184" height="1904" alt="fuse_cer" src="https://github.com/user-attachments/assets/8c066116-6a02-4b4e-802a-72d2b4a5030d" />
-
-<img width="2685" height="1485" alt="fuse_wer" src="https://github.com/user-attachments/assets/8f405986-3d00-45a0-b79c-56d98a92935a" />
-
-<img width="1389" height="790" alt="fuse_similarity_score" src="https://github.com/user-attachments/assets/9c99b7b3-cbb1-47ac-a8a8-01e29af512ce" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8f405986-3d00-45a0-b79c-56d98a92935a" width="900"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9c99b7b3-cbb1-47ac-a8a8-01e29af512ce" width="900"/>
+</p>
 
 
 
