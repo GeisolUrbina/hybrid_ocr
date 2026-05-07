@@ -60,10 +60,10 @@ The same PDF was extracted using **four independent AI-based pipelines:**
 
 | Model | Characters | Characteristics |
 |-------|------------|-----------------|
-| **Claude Sonnet 4** | 174,325 | Most compact, highest quality |
+| **DeepSeek-ocr** | 213,761 | Most compact, highest quality |
 | **LlamaIndex** | 203,789 | Most words, HTML cleaned |
 | **Docling** | 244,056 | Most characters, extra noise |
-| **Mistral Large 3** | 219,113 | Medium, some OCR errors |
+| **Hunyuan** | 196,419 | Medium, some OCR errors |
 
 **Key principles:**
 - All model outputs were saved **unmodified** in `data/model_outputs/.md/`
